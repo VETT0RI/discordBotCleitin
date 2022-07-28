@@ -6,7 +6,7 @@ module.exports = {
     .setDescription('Returns an embed.'),
   async execute(interaction, client) {
     const embed = new EmbedBuilder()
-      .setTitle(`This is a EMBED!`)
+      .setTitle(`Clique aqui!`)
       .setDescription(`Gabriel is gay!`)
       .setColor(0x18e1ee)
       .setImage(client.user.displayAvatarURL())
@@ -25,13 +25,13 @@ module.exports = {
       .setURL(`https://web.facebook.com/photo/?fbid=2976562935938683&set=a.1385153608412965`)
       .addFields([
         {
-          name: `Field 1`,
-          value: `Field value 1`,
+          name: `Anabia`,
+          value: `Anabia é uma trans que adora levar por tras`,
           inline: true
         },
         {
-          name: `Field 2`,
-          value: `Field value 2`,
+          name: `Moby`,
+          value: `Mr. Moby, mais conhecido como Moby Dick é o amante de Anabia, ambos são felizes juntos e adoram vinho quente.`,
           inline: true
         }
       ])
